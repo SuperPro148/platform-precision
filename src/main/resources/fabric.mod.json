@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "platformprecision",
+  "version": "${version}",
+
+  "name": "Platform Precision",
+  "description": "A simple mod to quickly, easily and safely build platforms",
+  "authors": [
+    "SuperPro148"
+  ],
+  "contact": {
+    "homepage": "https://superpro148.github.io/",
+    "sources": "https://github.com/SuperPro148/platformprecision"
+  },
+
+  "license": "GPL-3.0-only",
+  "icon": "assets/platformprecision/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.superpro148.platformprecision.PlatformPrecision"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
