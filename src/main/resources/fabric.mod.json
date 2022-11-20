@@ -9,17 +9,20 @@
     "SuperPro148"
   ],
   "contact": {
-    "homepage": "https://superpro148.github.io/",
+    "homepage": "https://superpro148.github.io/pages/mcmods/",
     "sources": "https://github.com/SuperPro148/platformprecision"
   },
 
-  "license": "GPL-3.0-only",
+  "license": "LGPL-3.0-only",
   "icon": "assets/platformprecision/icon.png",
 
   "environment": "client",
   "entrypoints": {
     "client": [
       "io.github.superpro148.platformprecision.PlatformPrecision"
+    ],
+    "modmenu": [
+      "io.github.superpro148.platformprecision.config.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -29,7 +32,10 @@
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
     "minecraft": "~1.19",
-    "java": ">=17"
+    "java": ">=17",
+    "yet-another-config-lib": "*",
+    "configlib148": "*",
+    "modmenu": "*"
   },
   "suggests": {
   }

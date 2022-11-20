@@ -1,4 +1,16 @@
 {
-  "key.platformprecision.align_position": "Align Position",
-  "category.platformprecision.platformprecision": "Platform Precision"
+  "key.platformprecision.align_position": "Align position",
+  "category.platformprecision.platformprecision": "Platform Precision",
+  "option.platformprecision.align_pitch" : "Align pitch",
+  "tooltip.platformprecision.align_pitch": "Whether to align your pitch or not.",
+  "option.platformprecision.align_pitch_to" : "Align pitch to",
+  "tooltip.platformprecision.align_pitch_to": "Where to align your pitch to. 0 is straight up, 90 is straight forward, 180 is straight down.",
+  "option.platformprecision.align_yaw" : "Align yaw",
+  "tooltip.platformprecision.align_yaw": "Whether to align your yaw or not.",
+  "option.platformprecision.yaw_interval" : "Yaw interval",
+  "tooltip.platformprecision.yaw_interval": "The interval (in degrees) between positions to which you can align your yaw to. 360 should be divisible by this number.",
+  "option.platformprecision.move_position" : "Move position",
+  "tooltip.platformprecision.move_position": "Whether to move your position or not. Will be automatically disabled if yaw interval is not 90.",
+  "option.platformprecision.check_void": "Check for void",
+  "tooltip.platformprecision.check_void": "Whether to check if there is a block underneath you. Keep this on if move position is on."
 }
